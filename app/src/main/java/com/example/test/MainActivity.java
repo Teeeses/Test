@@ -2,8 +2,11 @@ package com.example.test;
 
 import android.app.Activity;
 import android.os.Bundle;
+<<<<<<< HEAD
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
+=======
+>>>>>>> origin/master
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -20,12 +23,20 @@ import retrofit2.Call;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
+<<<<<<< HEAD
 public class MainActivity extends AppCompatActivity {
+=======
+public class MainActivity extends Activity {
+>>>>>>> origin/master
 
     private Button button;
     private EditText text;
 
+<<<<<<< HEAD
     private final String KEY = "trnsl.1.1.20160519T070455Z.d9ae92529e899214.738ad6e32979c235e14ceb5b0f473f996f07e520";
+=======
+    private final String KEY = "trnsl.1.1.20160518T214956Z.30df98be3ed52d6a.8864882a3a17734ebc30922b57e6a83cfe86e0f6";
+>>>>>>> origin/master
 
     private Gson gson = new GsonBuilder().create();
     private Retrofit retrofit = new Retrofit.Builder()
@@ -44,9 +55,12 @@ public class MainActivity extends AppCompatActivity {
         text = (EditText) findViewById(R.id.editText);
         MaskedEditText phone = (MaskedEditText) findViewById(R.id.masked_edit_text);
 
+<<<<<<< HEAD
         getSupportActionBar().setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM);
         getSupportActionBar().setCustomView(R.layout.abs_layout);
 
+=======
+>>>>>>> origin/master
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

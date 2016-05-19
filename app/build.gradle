@@ -25,5 +25,8 @@ dependencies {
     compile 'com.squareup.retrofit2:converter-gson:2.0.2'
     compile 'com.squareup.retrofit2:retrofit:2.0.2'
     compile 'com.github.pinball83:masked-edittext:1.0.3'
+<<<<<<< HEAD
     compile 'com.squareup.retrofit2:adapter-rxjava:2.0.2'
+=======
+>>>>>>> origin/master
 }

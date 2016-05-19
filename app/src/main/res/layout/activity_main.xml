@@ -35,7 +35,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="number"
+<<<<<<< HEAD
             app:mask="+7 (***) *** ** - **"
+=======
+            app:mask="+7(***) *** **-**"
+>>>>>>> origin/master
             app:notMaskedSymbol="*"
             />
     </LinearLayout>
