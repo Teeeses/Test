@@ -13,10 +13,19 @@
         android:icon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+<<<<<<< HEAD
         <activity
             android:name=".MainActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden">
+=======
+<<<<<<< HEAD
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait">
+=======
+        <activity android:name=".MainActivity">
+>>>>>>> origin/master
+>>>>>>> origin/master
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

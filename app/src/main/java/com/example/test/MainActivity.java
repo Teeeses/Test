@@ -1,5 +1,6 @@
 package com.example.test;
 
+<<<<<<< HEAD
 import android.content.Intent;
 import android.nfc.NfcAdapter;
 import android.nfc.tech.IsoDep;
@@ -17,6 +18,45 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.widget.Toast;
+=======
+import android.app.Activity;
+import android.os.Bundle;
+<<<<<<< HEAD
+import android.support.v7.app.ActionBar;
+import android.support.v7.app.AppCompatActivity;
+=======
+>>>>>>> origin/master
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+
+import com.github.pinball83.maskededittext.MaskedEditText;
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+
+import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
+
+import retrofit2.Call;
+import retrofit2.Retrofit;
+import retrofit2.converter.gson.GsonConverterFactory;
+
+<<<<<<< HEAD
+public class MainActivity extends AppCompatActivity {
+=======
+public class MainActivity extends Activity {
+>>>>>>> origin/master
+
+    private Button button;
+    private EditText text;
+
+<<<<<<< HEAD
+    private final String KEY = "trnsl.1.1.20160519T070455Z.d9ae92529e899214.738ad6e32979c235e14ceb5b0f473f996f07e520";
+=======
+    private final String KEY = "trnsl.1.1.20160518T214956Z.30df98be3ed52d6a.8864882a3a17734ebc30922b57e6a83cfe86e0f6";
+>>>>>>> origin/master
+>>>>>>> origin/master
 
 
 public class MainActivity extends AppCompatActivity {
@@ -54,6 +94,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+<<<<<<< HEAD
     private void createElements() {
         toolbar = (Toolbar) findViewById(R.id.tool_bar);
         tabLayout = (TabLayout) findViewById(R.id.tabs);
@@ -76,6 +117,15 @@ public class MainActivity extends AppCompatActivity {
         tabLayout.setSelectedTabIndicatorColor(ContextCompat.getColor(this, R.color.indicator));
         viewPager.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tabLayout));
         tabLayout.setOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
+=======
+<<<<<<< HEAD
+        getSupportActionBar().setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM);
+        getSupportActionBar().setCustomView(R.layout.abs_layout);
+
+=======
+>>>>>>> origin/master
+        button.setOnClickListener(new View.OnClickListener() {
+>>>>>>> origin/master
             @Override
             public void onTabSelected(TabLayout.Tab tab) {
                 viewPager.setCurrentItem(tab.getPosition());
